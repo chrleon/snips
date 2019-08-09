@@ -1,5 +1,0 @@
-
-// For restarting the Wacom Tablet driver on MacOS, without rebooting
-// Open terminal and enter the following command
-// HUP is the HANGUP signal and by convention, daemons and drivers reload themselves.
-kill -s HUP "`pgrep WacomTabletDriver`"
