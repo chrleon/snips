@@ -17,6 +17,6 @@ For extra ease, make an alias in bash profile.
 1. Open Terminal, type 
 ```nano  ~/.bash_profile```
 1. Add a line like so
-```alias restartwacom="kill -s HUP "`pgrep WacomTabletDriver`'"```
+```alias restartwacom="kill -s HUP '`pgrep WacomTabletDriver`'"```
 1. Restart the terminal and type ```restartwacom``` to restart the Wacom Drivers.
 1. Swing that pen
